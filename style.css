@@ -56,6 +56,23 @@
   flex: 1;
 }
 
+h1{
+	margin: auto; margin-bottom:0; padding-bottom:0; color:white}
+
+.boxes_zero{
+	 width: 25rem;
+	 margin:auto;
+	display:flex;
+	flex-direction:column;
+	justify-content: start;
+	
+	 padding: 1rem; 
+	 gap:1rem;
+	 }
+	 .boxes_zero > .box {
+		 background: orangered; color:white}
+	 
+
 @media screen and (max-width: 600px) {
   .box {
     background: red;
